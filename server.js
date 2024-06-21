@@ -23,6 +23,7 @@ app.disable('etag');
 mongoose.connect('mongodb://localhost/react-tweets');
 
 // Create a new ntwitter instance
+// allows to access the Twitter streaming API
 var twit = new twitter(config.twitter);
 
 // Index Route
